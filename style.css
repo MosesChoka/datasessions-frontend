@@ -2,7 +2,6 @@
 
 body {
     font-family: Poppins, sans-serif;
-    background: #f5f5dcde;
     color: rgb(14, 13, 13);
     line-height: 1.6;
     height: 100vh;
@@ -10,24 +9,26 @@ body {
 }
 
 .intro{
-    padding-left: 30px;
+    padding-top: 250px;
+    padding-left: 120px;
+    line-height: 3.0;
 }
 
 .intro p{
     font-family: sans-serif;
-    font-size: larger;
+    font-size: 32px;
     font-weight: 200px;
-    padding-left: 30px;
-    text-align: center;
+    text-align: justify;
     text-decoration: 20px;
-    
+    position: relative;
+
+
 }
 
 .hero{
     float: right;
-    padding-right: 70px;
-    width: 100px;
-    height: 100px;
-   
+    padding-right: 120px;
+    padding-top: 1px;
+    
 }
 
