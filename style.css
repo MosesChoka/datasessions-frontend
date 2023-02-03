@@ -11,24 +11,39 @@ body {
     color: rgb(14, 13, 13);
     line-height: 1.6;
     height: 100vh;
+    background: white;
     /*overflow: hidden;*/
 }
 
-.intro{
-    padding-top: 236px;
-    padding-left: 120px;
-    line-height: 2.0;
+hr {
+    margin-top: 111px;
 }
 
-.intro p{
+.container{
+    display:flex;
+}
+
+.intro{
+    padding-top: 174px;
+    padding-left: 120px;
+    line-height: 2.0;
+    position: relative;
     font-family: Josefin Sans;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 200px;
     text-align: justify;
     text-decoration: 20px;
-    position: relative;
+}
 
-
+.description{
+    padding-left: 120px;
+    line-height: 1.0;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    text-align: justify;
+    color: #45474B;
+    width: 534;
+    
 }
 
 .buttondiv{
@@ -38,7 +53,7 @@ body {
     justify-content:center;
     display:flex;
     align-items:center;
-    padding:7px;
+    padding-top: 47px;
     padding-left: 120px;
     
    
@@ -50,10 +65,11 @@ body {
     margin-right: 7px;
     border:none;
     border-radius:5px;
-    background-color:#df9d11;
+    background-color:rgb(228, 193, 40);
     font-size:17px;
     font-weight:600;
     cursor:pointer;
+    margin-right: 2em;
     
 }
 
@@ -84,8 +100,32 @@ body {
 }
 
 .hero{
+    flex: 25%;
+    max-width: 25%;
+    flex-wrap: wrap;
     position: absolute;
-    right: 0;
-    top: 9em;
-    padding-right: 120px;
+    right: 0em;
+    top: 0em;
+    padding-right: 99px;
+    padding-top: 174px;
+    padding-bottom: 105px;
+
+    
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+  @media screen and (max-width:600px) {
+    .hero{
+        max-width: 50%;
+        flex: 100%;
+    }
+    
+  }
